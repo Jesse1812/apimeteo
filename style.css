@@ -20,17 +20,33 @@ body {
   color: white;
   font-size: 1.5rem;
 }
-#city {
+#city,
+#city2,
+#city3,
+#city4,
+#city5 {
   background-color: rgb(25, 25, 182);
   text-align: center;
 }
-#temp {
+#temp,
+#temp2,
+#temp3,
+#temp4,
+#temp5 {
   background-color: rgb(30, 155, 3);
 }
-#humidity {
+#humidity,
+#humidity2,
+#humidity3,
+#humidity4,
+#humidity5 {
   background-color: rgb(172, 29, 29);
 }
-#wind {
+#wind,
+#wind2,
+#wind3,
+#wind4,
+#wind5 {
   background-color: rgb(3, 150, 155);
 }
 .form-group {
