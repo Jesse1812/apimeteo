@@ -4,6 +4,13 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+h1 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+button {
+  margin-top: 5px;
+}
 .box-container {
   width: 300px;
   height: 300px;
