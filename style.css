@@ -1,0 +1,38 @@
+body {
+  background-image: url(meteo-france.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.box-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
+#city {
+  background-color: rgb(25, 25, 182);
+  text-align: center;
+}
+#temp {
+  background-color: rgb(30, 155, 3);
+}
+#humidity {
+  background-color: rgb(172, 29, 29);
+}
+#wind {
+  background-color: rgb(3, 150, 155);
+}
+.form-group {
+  width: 50%;
+}
