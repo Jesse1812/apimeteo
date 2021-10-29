@@ -28,7 +28,7 @@ document.querySelector('form').addEventListener('submit', function (e) {
   let ville = document.getElementById('inputCity').value;
   apiCall(ville);
 });
-apiCall('Avignon');
+apiCall('Aix-en-Provence');
 
 let apiCall2 = function (city) {
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric&lang=fr`;
@@ -52,7 +52,7 @@ let apiCall2 = function (city) {
     )
     .catch((error) => console.log('Erreur: ' + error));
 };
-apiCall2('Aix-en-Provence');
+apiCall2('Avignon');
 
 let apiCall3 = function (city) {
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric&lang=fr`;
